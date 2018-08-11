@@ -1,0 +1,12 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++					pktgen_app							+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. An User space Application, which is used to generate the packets 
+	from user space application.
+2. The destination address and the mode of transfer are configurable.
+	The idea is to implement the light weight packet generation 
+	application and which can utilize the full link/speed of the network card.
+3. The code designed for x86 platform and can be easily ported to embedded platforms.
+
++++++++++++++++++++++ Build Steps ++++++++++++++++++++++++
